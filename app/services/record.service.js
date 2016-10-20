@@ -39,9 +39,10 @@ var RecordService = (function () {
     };
     RecordService = __decorate([
         core_1.Injectable(), 
-        __metadata('design:paramtypes', [http_1.Http, config_service_1.ConfigService])
+        __metadata('design:paramtypes', [(typeof (_a = typeof http_1.Http !== 'undefined' && http_1.Http) === 'function' && _a) || Object, config_service_1.ConfigService])
     ], RecordService);
     return RecordService;
+    var _a;
 }());
 exports.RecordService = RecordService;
 var Record = (function () {
