@@ -11,8 +11,9 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var ConfigService = (function () {
     function ConfigService() {
-        // public HostUrl: string = "http://localhost:8765";
-        this.HostUrl = "http://121.41.46.25:8766";
+        // public HostUrl: string = "http://localhost:8765"; 
+        // public HostUrl: string = "http://121.41.46.25:8766"; //dev
+        this.HostUrl = "http://121.41.46.25:8778"; //realse
     }
     ConfigService = __decorate([
         core_1.Injectable(), 
@@ -21,5 +22,4 @@ var ConfigService = (function () {
     return ConfigService;
 }());
 exports.ConfigService = ConfigService;
-// export const HostUrl:string="http://121.41.46.25:8766"; 
 //# sourceMappingURL=config.service.js.map
